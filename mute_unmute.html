@@ -1,0 +1,27 @@
+<html>
+    <script type="text/javascript">
+        function abspielen()
+        {
+           document.getElementById("player").play();
+           document.getElementById("pausebutton").style.display = "";
+           document.getElementById("playbutton").style.display = "none";
+        }
+        function pausieren()
+        {
+           document.getElementById("player").pause();
+           document.getElementById("playbutton").style.display = "";
+           document.getElementById("pausebutton").style.display = "none";
+        }
+    </script>
+
+<body>
+
+    <audio id="player">
+        <source src="wagner.mp3" type="audio/mpeg">
+        <source src="../assets/multimedia/citylights.ogg" type="audio/ogg">
+     </audio>
+     <img src="../assets/images/pausebutton.png" name="playbutton" width="128" height="128" id="playbutton" title="Abspielen" style="cursor: pointer" onClick="abspielen()" onMouseover="playbutton.src='../assets/images/playbutton.png'" onMouseout="playbutton.src='../assets/images/pausebutton.png'"/>
+     <img src="../assets/images/playbutton.png" name="pausebutton" width="128" height="128" id="pausebutton" title="Pause" style="display: none; cursor: pointer" onClick="pausieren()" onMouseover="pausebutton.src='../assets/images/pausebutton.png'" onMouseout="pausebutton.src='../assets/images/playbutton.png'"/>
+
+</body>
+</html>

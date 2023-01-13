@@ -11,18 +11,43 @@
     <meta name="robots" content="index,follow">
     <link rel="icon" href="Icon3.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="Icon3.ico" type="image/x-icon"/>
+    <style type="text/css">
+        <!--
+        body {margin: 0px; padding: 0px;}
+        -->
+
+        .div-1 {
+        background-color: #e7256c;
+        width: 801px;
+        height: 801px;
+        display: block; /*centres the dif element */
+        margin-left: auto; /* centres the dif element */
+        margin-right: auto; /* centres the dif element */
+    }
+    </style>
 </head>
 
 <body>
-    <div align="center">
+    <div class="div-1" align="center">
+
          <div align="center">
-             <img src="front_large.gif" usemap="#image-map">
+             <img src="front_large.gif" usemap="#image-map" align="top">
 
-             <map name="image-map">
-                 <area target="_parent" alt="" title="" href="Seite_1.html" coords="420,329,510,330,507,504,418,505" shape="poly">
-            </map> 
-
+                <map name="image-map">
+                    <area target="_parent" alt="" title="" href="Seite_1.html" coords="420,329,510,330,507,504,418,505" shape="poly">
+                </map> 
         </div>
+
+
+        <div align="center">
+             <img src="schaltfl2.png" usemap="#image-map" align="top" vspace="10" style="float: left;">
+
+            <map name="image-map">
+                <area target="_parent" alt="" title="" href="Seite_1.html" coords="420,329,510,330,507,504,418,505" shape="poly">
+            </map> 
+        </div>
+
+
     </div>
 </body>
 </html>
