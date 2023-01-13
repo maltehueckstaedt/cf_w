@@ -18,41 +18,42 @@
         -->
 
         .div-1 {
-        background-color: #e7256c;
-        width: 801px;
-        height: 801px;
+        background-color: #ffffff;
+        width: 800px;
+        height: 800px;
         display: block; /*centres the dif element */
         margin-left: auto; /* centres the dif element */
         margin-right: auto; /* centres the dif element */
     }
     </style>
 
-<script type="text/javascript">
-    function placeImage(planet)
-    {
-    var red=document.getElementById('red');
-    switch(planet) {
-        case 'mercur':
-            red.style.top='0px';
-            red.style.left='0px';
-            red.style.display='block';
-            break;    
-    
-        case 'venus':
-            red.style.top='0px';
-            red.style.left='0px';
-            red.style.display='block';
-            break;
-        default:
-            red.style.display='none';
+    <script type="text/javascript">
+        function placeImage(planet)
+        {
+        var red=document.getElementById('red');
+        switch(planet) {
+            case 'mercur':
+                red.style.top='0px';
+                red.style.left='0px';
+                red.style.display='block';
+                break;    
+        
+            case 'venus':
+                red.style.top='0px';
+                red.style.left='0px';
+                red.style.display='block';
+                break;
+            default:
+                red.style.display='none';
+            }
         }
-    }
-</script>
+    </script>
 
-<style type="text/css">
+    <style type="text/css">
     #container {position:relative;}
     #red {display:none;position:absolute;top:0;left:0;} 
     </style>
+
 </head>
 
 <body>
@@ -72,8 +73,10 @@
             <img id="red" src="schaltfl2.png" alt="red" width="800">
             
             <map name="planetmap">
-            <area shape ="poly" coords ="55,78,55,109,126,121,127,68" onmouseover="placeImage('mercur')" onmouseout="placeImage()" href ="Seite_1.html" target ="_blank" alt="Mercury">
-            <area shape ="poly" coords ="211,69,209,123,280,110,281,83" shape="poly" onmouseover="placeImage('venus')" onmouseout="placeImage()" href ="venus.htm" target ="_blank" alt="Venus">
+                
+            <area shape ="poly" coords ="55,78,55,109,126,121,127,68" href ="Seite_1.html" target ="_parent" alt="Mercury" onmouseover="placeImage('mercur')" onmouseout="placeImage()">
+
+            <area shape ="poly" coords ="211,69,209,123,280,110,281,83" shape="poly" onmouseover="placeImage('venus')" onmouseout="placeImage()" href ="Seite_1.html" target ="_blank" alt="Venus">
             </map> 
             
             </div>
