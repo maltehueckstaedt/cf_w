@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>image map</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script type="text/javascript">
+function placeImage(planet)
+{
+var red=document.getElementById('red');
+switch(planet) {
+    case 'mercur':
+        red.style.top='90px';
+        red.style.left='60px';
+        red.style.display='block';
+        break;    
+
+    case 'venus':
+        red.style.top='60px';
+        red.style.left='100px';
+        red.style.display='block';
+        break;
+    default:
+        red.style.display='none';
+    }
+}
+
+</script>
+
+<style type="text/css">
+#container {position:relative;}
+#red {display:none;position:absolute;top:0;left:0;} 
+</style>
+
+</head>
+<body>
+<div id="container">
+<img src="schaltfl2.png" alt="Planets" usemap="#planetmap">
+
+<img id="red" src="schaltfl.png" alt="red">
+
+<map name="planetmap">
+<area shape ="circle" coords ="69,90,33" onmouseover="placeImage('mercur')" onmouseout="placeImage()" href ="mercur.htm" target ="_blank" alt="Mercury">
+<area shape ="circle" coords ="173,91,34" onmouseover="placeImage('venus')" onmouseout="placeImage()" href ="venus.htm" target ="_blank" alt="Venus">
+</map> 
+
+
+</div>
+</body>
+</html>
