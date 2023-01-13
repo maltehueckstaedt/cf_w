@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0044)http://www.sjak.cz/2015/maps-own/index2.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>image map</title>
+
+<style type="text/css">
+    body  {
+        position: relative;
+   }
+    img.overimg {
+        position: absolute;
+        display: none;
+     }
+</style>
+</head>
+<body>
+<script type="text/javascript">
+function placeImage(disp, planet, x, y)
+{
+    var ele=document.getElementById(planet);
+    if (disp) {
+        ele.style.top = y + "px";
+        ele.style.left = x + "px";
+        ele.style.display='block';
+    } else {
+        ele.style.display='none';
+    }        
+
+}
+
+</script>
+
+<img src="./image map_files/mapa_4_mista.png" alt="Planets" usemap="#planetmap">
+<img class="overimg" id="mercur" src="./image map_files/budova-1-stupen.jpg" width="250" alt="mercur">
+<img class="overimg" id="venus" src="./image map_files/budova-2-stupen.jpg" width="250" alt="venus">
+<img class="overimg" id="mars" src="./image map_files/budova-skolka.jpg" width="250" alt="mars">
+<img class="overimg" id="neptun" src="./image map_files/budova-narnie.jpg" width="250" alt="neptun">
+
+<map name="planetmap">
+<area shape="circle" coords="710,228,15" onmouseover="placeImage(true, 'mercur', 90, 60)" onmouseout="placeImage(false, 'mercur');" href="http://www.sjak.cz/2015/maps-own/mercur.htm" target="_blank" alt="Mercury">
+<area shape="circle" coords="501,130,15" onmouseover="placeImage(true, 'venus', 90, 60);" onmouseout="placeImage(false, 'venus');" href="http://www.sjak.cz/2015/maps-own/venus.htm" target="_blank" alt="Venus">
+<area shape="circle" coords="591,205,15" onmouseover="placeImage(true, 'mars', 90, 60);" onmouseout="placeImage(false, 'mars');" href="http://www.sjak.cz/2015/maps-own/mars.htm" target="_blank" alt="Mars">
+<area shape="circle" coords="552,103,15" onmouseover="placeImage(true, 'neptun', 90, 60);" onmouseout="placeImage(false, 'neptun');" href="http://www.sjak.cz/2015/maps-own/neptun.htm" target="_blank" alt="Neptun">
+</map> 
+
+
+</body></html>
