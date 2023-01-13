@@ -10,14 +10,14 @@ function placeImage(planet)
 var red=document.getElementById('red');
 switch(planet) {
     case 'mercur':
-        red.style.top='90px';
-        red.style.left='60px';
+        red.style.top='0px';
+        red.style.left='0px';
         red.style.display='block';
         break;    
 
     case 'venus':
-        red.style.top='60px';
-        red.style.left='100px';
+        red.style.top='0px';
+        red.style.left='0px';
         red.style.display='block';
         break;
     default:
@@ -35,15 +35,13 @@ switch(planet) {
 </head>
 <body>
 <div id="container">
-<img src="schaltfl2.png" alt="Planets" usemap="#planetmap">
-
-<img id="red" src="schaltfl.png" alt="red">
+<img src="schaltfl.png" alt="Planets" usemap="#planetmap">
+<img id="red" src="schaltfl2.png" alt="red">
 
 <map name="planetmap">
-<area shape ="circle" coords ="69,90,33" onmouseover="placeImage('mercur')" onmouseout="placeImage()" href ="mercur.htm" target ="_blank" alt="Mercury">
-<area shape ="circle" coords ="173,91,34" onmouseover="placeImage('venus')" onmouseout="placeImage()" href ="venus.htm" target ="_blank" alt="Venus">
+<area shape ="poly" coords ="104,202,168,198,246,178,243,287,106,255" onmouseover="placeImage('mercur')" onmouseout="placeImage()" href ="mercur.htm" target ="_blank" alt="Mercury">
+<area shape ="poly" coords ="402,179,399,289,541,268,540,207" shape="poly" onmouseover="placeImage('venus')" onmouseout="placeImage()" href ="venus.htm" target ="_blank" alt="Venus">
 </map> 
-
 
 </div>
 </body>
