@@ -1,85 +1,86 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Truth</title>
     <meta name="keywords" content="malte hückstädt,Local Fist, Truth, Chernoff faces">
     <meta name="description" content="Local Fist, Truth, Chernoff faces">
-    <meta name="author" content="alte hückstädt">
+    <meta name="author" content="Malte hückstädt">
     <meta name="copyright" content="malte hückstädt©">
     <meta http-equiv="Content-Language" content="de">
     <meta name="robots" content="index,follow">
-    <link rel="icon" href="Icon3.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="Icon3.ico" type="image/x-icon"/>
 
-    <style type="text/css">
-        <!--
-        body {margin: 0px; padding: 0px;}
-        -->
+    <script type="module">
+        let audio;
+        document.querySelector('.sound').addEventListener("click",()=>{
+            document.querySelector('audio').play()
 
-        .div-1 {
-        background-color: #ffffff;
-        width: 800px;
-        height: 800px;
-        display: block; /*centres the dif element */
-        margin-left: auto; /* centres the dif element */
-        margin-right: auto; /* centres the dif element */
-    }
-    </style>
-
-    <script type="text/javascript">
-        function placeImage(planet)
-        {
-        var red=document.getElementById('red');
-        switch(planet) {
-            case 'mercur':
-                red.style.top='0px';
-                red.style.left='0px';
-                red.style.display='block';
-                break;    
-        
-            case 'venus':
-                red.style.top='0px';
-                red.style.left='0px';
-                red.style.display='block';
-                break;
-            default:
-                red.style.display='none';
-            }
-        }
+        })
     </script>
-
     <style type="text/css">
-    #container {position:relative;}
-    #red {display:none;position:absolute;top:0;left:0;} 
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body  {
+            width:800px;
+            margin:20px auto;
+        }
+        img {
+            display: block;
+        }
+        ul {
+            background: url(schaltfl.png);
+            list-style-type: none;
+            display: flex;
+            height: 200px;
+
+        }
+        ul li {
+
+        }
+        ul li a,
+        ul li button {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            display: block;
+            width: calc(800px /5);
+            height: 200px;
+        }
+        ul li:first-child a:hover {
+            background: url(schaltfl2.png) no-repeat 0 0 ;
+        }
+        audio {
+            margin: 30px auto;
+            display: block;
+        }
     </style>
 
 </head>
 
 <body>
-    <div class="div-1" align="center">
-
-         <div align="center">
-             <img src="front_large.gif" usemap="#image-map" align="top">
-
-                <map name="image-map">
-                    <area target="_parent" alt="" title="" href="Seite_1.html" coords="420,329,510,330,507,504,418,505" shape="poly">
-                </map> 
-        </div>
-
-
-        <div id="container">
-            <img src="schaltfl.png" alt="Planets" usemap="#planetmap" width="800">
-            <img id="red" src="schaltfl2.png" alt="red" width="800">
-            
-            <map name="planetmap">
-                
-            <area shape ="poly" coords ="55,78,55,109,126,121,127,68" href =https://github.com/" target ="_parent" alt="Mercury" onmouseover="placeImage('mercur')" onmouseout="placeImage()">
-            </map> 
-            
-        </div>
-
-            
-    </div>
+<div>
+    <img alt="foto" src="front_large.gif">
+        <nav>
+        <ul>
+            <li>
+                <a href=""></a>
+            </li>
+            <li>
+                <a href=""></a>
+            </li>
+            <li>
+                <a href=""></a>
+            </li>
+            <li class="sound">
+                <button type="button"></button>
+            </li>
+        </ul>
+        </nav>
+    <audio autoplay controls="controls">
+        <source src="/wagner.mp3" />
+    </audio>
+</div>
 </body>
 </html>
