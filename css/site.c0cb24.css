@@ -1,0 +1,2 @@
+body{--f:1;--sw:0px;min-width:1200px}@media (min-width:960px) and (max-width:1199px){body{min-width:960px}}@media (min-width:768px) and (max-width:959px){body{min-width:768px}}@media (max-width:767px){body{min-width:320px}}.menu-content{cursor:pointer;position:relative}li{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+@font-face{font-display:block;font-family:"Lato";src:url('Lato-Regular.woff2') format('woff2'),url('Lato-Regular.woff') format('woff');font-weight:400}.c1{display:inline-block;position:relative;margin-left:0;margin-top:0}
