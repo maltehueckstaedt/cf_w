@@ -26,14 +26,14 @@ var e=document.querySelector('.un5');e.setAttribute('src',(dpi>1)?'images/strich
 var e=document.querySelector('.un6');e.setAttribute('src',(dpi>1)?'images/strich-108.png':'images/strich-54.png');
 var e=document.querySelector('.un7');e.setAttribute('src',(dpi>1)?'images/strich-120.png':'images/strich-60.png');
 var e=document.querySelector('.un8');e.setAttribute('src',(dpi>1)?'images/strich-148.png':'images/strich-74.png');
-var e=document.querySelector('.un9');e.setAttribute('src',(dpi>1)?'images/strich-148.png':'images/strich-74.png');}else{var e=document.querySelector('.un2');e.setAttribute('src',(dpi>1)?'images/strich-46.png':'images/strich-23.png');
-var e=document.querySelector('.un3');e.setAttribute('src',(dpi>1)?'images/untitled-310.jpg':'images/untitled-155.jpg');
-var e=document.querySelector('.un4');e.setAttribute('src',(dpi>1)?'images/strich-46.png':'images/strich-23.png');
-var e=document.querySelector('.un5');e.setAttribute('src',(dpi>1)?'images/strich-38.png':'images/strich-19.png');
-var e=document.querySelector('.un6');e.setAttribute('src',(dpi>1)?'images/strich-44.png':'images/strich-22.png');
-var e=document.querySelector('.un7');e.setAttribute('src',(dpi>1)?'images/strich-50.png':'images/strich-25.png');
-var e=document.querySelector('.un8');e.setAttribute('src',(dpi>1)?'images/strich-62.png':'images/strich-31.png');
-var e=document.querySelector('.un9');e.setAttribute('src',(dpi>1)?'images/strich-62.png':'images/strich-31.png');}}};
+var e=document.querySelector('.un9');e.setAttribute('src',(dpi>1)?'images/strich-148.png':'images/strich-74.png');}else{var e=document.querySelector('.un2');e.setAttribute('src',(dpi>1)?'images/strich-180.png':'images/strich-90.png');
+var e=document.querySelector('.un3');e.setAttribute('src',(dpi>1)?'images/untitled-460.jpg':'images/untitled-230.jpg');
+var e=document.querySelector('.un4');e.setAttribute('src',(dpi>1)?'images/strich-206.png':'images/strich-103.png');
+var e=document.querySelector('.un5');e.setAttribute('src',(dpi>1)?'images/strich-162.png':'images/strich-81.png');
+var e=document.querySelector('.un6');e.setAttribute('src',(dpi>1)?'images/strich-180.png':'images/strich-90.png');
+var e=document.querySelector('.un7');e.setAttribute('src',(dpi>1)?'images/strich-180.png':'images/strich-90.png');
+var e=document.querySelector('.un8');e.setAttribute('src',(dpi>1)?'images/strich-180.png':'images/strich-90.png');
+var e=document.querySelector('.un9');e.setAttribute('src',(dpi>1)?'images/strich-180.png':'images/strich-90.png');}}};
 if(!window.HTMLPictureElement){$(window).resize(r);r();}
 un1=document.querySelectorAll('.un1');
 if(un1.length){
