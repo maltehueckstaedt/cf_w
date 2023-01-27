@@ -1,2 +1,2 @@
-# chernoff_faces_website
- website chernoff faces
+# Website of the Chernoff Faces
+
