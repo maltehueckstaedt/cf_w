@@ -5,7 +5,7 @@
 
 ## Overview
 
-The Chernoff-Faces are a collective of artists, musicians, designers and datascientists. Their productions are mainly limited to the digital space. In order to generate adequate presentation possibilities, the chernoff faces are building their own website. The local repository is used for version control and development of the website. External help is always welcome.
+The _chernoff faces_ are a collective of artists, musicians, designers and data-scientists. Their productions are mainly limited to the digital space. In order to generate adequate self-presentation possibilities, the _chernoff faces_ are building their own website. The local repository is used for version control and development of the website. External help is always welcome.
 
 ## Installation
 
@@ -30,7 +30,7 @@ Instructions follow as appropriate.
 
 ## Lifecycle
 
-The chernoff faces emerged from the artist collective [local fist](http://local-fist.com). For many of the productions of chernoff faces, the work of [Christian Riebe](https://christian-riebe.work) and Marius Albrecht - both also former members of the local-fist - are programmatic.
+The _chernoff faces_ emerged 2022 from the artist collective [local fist](http://local-fist.com). For many of the productions of chernoff faces, the work of [Christian Riebe](https://christian-riebe.work) and Marius Albrecht - both also former members of the local-fist - are programmatic.
 
 ## Contact
 
