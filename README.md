@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ggplot2 <img src="https://github.com/maltehueckstaedt/cf_w/blob/main/images/logo_gif.gif" align="right" width="120" />
+# chernoff faces website <img src="https://github.com/maltehueckstaedt/cf_w/blob/main/images/logo_gif.gif" align="right" width="120" />
 
 <!-- badges: start -->
 
