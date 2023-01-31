@@ -13,13 +13,9 @@ The _chernoff faces_ are a collective of artists, musicians, designers and data-
 # Instructions follow as appropriate.
 ```
 
-## mobile version
+## mobile/stationary version
 
-<img src="https://github.com/maltehueckstaedt/cf_w/blob/main/mobile_index.png" width="30%" height="30%"/></a>
-
-## stationary version
-
-<img src="https://github.com/maltehueckstaedt/cf_w/blob/main/stationary_index.png" width="50%" height="50%"/></a>
+<img src="https://github.com/maltehueckstaedt/cf_w/blob/main/mobile_stationary_index.png" width="80%" height="80%"/></a>
 
 
 ## Usage
