@@ -33,9 +33,14 @@ install.packages("ggplot2")
 devtools::install_github("tidyverse/ggplot2")
 ```
 
-## Cheatsheet
+## mobile version
 
-<a href="https://github.com/rstudio/cheatsheets/blob/master/data-visualization.pdf"><img src="https://raw.githubusercontent.com/rstudio/cheatsheets/master/pngs/thumbnails/data-visualization-cheatsheet-thumbs.png" width="630" height="252"/></a>
+<img src="https://github.com/maltehueckstaedt/cf_w/blob/main/mobile_index.png" width="30%" height="30%"/></a>
+
+## stationary version
+
+<img src="https://github.com/maltehueckstaedt/cf_w/blob/main/stationary_index.png" width="30%" height="30%"/></a>
+
 
 ## Usage
 
