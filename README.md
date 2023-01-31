@@ -39,7 +39,7 @@ devtools::install_github("tidyverse/ggplot2")
 
 ## stationary version
 
-<img src="https://github.com/maltehueckstaedt/cf_w/blob/main/stationary_index.png" width="30%" height="30%"/></a>
+<img src="https://github.com/maltehueckstaedt/cf_w/blob/main/stationary_index.png" width="50%" height="50%"/></a>
 
 
 ## Usage
