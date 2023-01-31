@@ -26,7 +26,7 @@ Instructions follow as appropriate.
 
 ## Lifecycle
 
-The _chernoff faces_ emerged 2022 from the artist collective [local fist](http://local-fist.com). For many of the productions of chernoff faces, the work of [Christian Riebe](https://christian-riebe.work) and Marius Albrecht - both also former members of the local-fist - are programmatic.
+The _chernoff faces_ emerged 2022 from the artist collective [_local fist_](http://local-fist.com). For many of the productions of chernoff faces, the work of [Christian Riebe](https://christian-riebe.work) and Marius Albrecht - both also former members of the _local fist_ - are programmatic.
 
 ## Contact
 
