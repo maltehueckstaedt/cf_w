@@ -1,15 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# chernoff faces website <img src="https://github.com/maltehueckstaedt/cf_w/blob/main/images/logo_gif.gif" align="right" width="120" />
-
-<!-- badges: start -->
-
-[![R-CMD-check](https://github.com/tidyverse/ggplot2/workflows/R-CMD-check/badge.svg)](https://github.com/tidyverse/ggplot2/actions)
-[![Codecov test
-coverage](https://codecov.io/gh/tidyverse/ggplot2/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tidyverse/ggplot2?branch=main)
-[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/ggplot2)](https://cran.r-project.org/package=ggplot2)
-<!-- badges: end -->
+# chernoff faces - the website <img src="https://github.com/maltehueckstaedt/cf_w/blob/main/images/logo_gif.gif" align="right" width="120" />
 
 ## Overview
 
