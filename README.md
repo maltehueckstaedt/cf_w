@@ -9,16 +9,8 @@ The Chernoff-Faces are a collective of artists, musicians, designers and datasci
 
 ## Installation
 
-``` r
-# The easiest way to get ggplot2 is to install the whole tidyverse:
-install.packages("tidyverse")
-
-# Alternatively, install just ggplot2:
-install.packages("ggplot2")
-
-# Or the development version from GitHub:
-# install.packages("devtools")
-devtools::install_github("tidyverse/ggplot2")
+``` html
+# Instructions follow as appropriate.
 ```
 
 ## mobile version
@@ -32,36 +24,13 @@ devtools::install_github("tidyverse/ggplot2")
 
 ## Usage
 
-It’s hard to succinctly describe how ggplot2 works because it embodies a
-deep philosophy of visualisation. However, in most cases you start with
-`ggplot()`, supply a dataset and aesthetic mapping (with `aes()`). You
-then add on layers (like `geom_point()` or `geom_histogram()`), scales
-(like `scale_colour_brewer()`), faceting specifications (like
-`facet_wrap()`) and coordinate systems (like `coord_flip()`).
-
-``` r
-library(ggplot2)
-
-ggplot(mpg, aes(displ, hwy, colour = class)) + 
-  geom_point()
+``` html
+Instructions follow as appropriate.
 ```
-
-![](man/figures/README-example-1.png)<!-- -->
 
 ## Lifecycle
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
-
-ggplot2 is now over 10 years old and is used by hundreds of thousands of
-people to make millions of plots. That means, by-and-large, ggplot2
-itself changes relatively little. When we do make changes, they will be
-generally to add new functions or arguments rather than changing the
-behaviour of existing functions, and if we do make changes to existing
-behaviour we will do them for compelling reasons.
-
-If you are looking for innovation, look to ggplot2’s rich ecosystem of
-extensions. See a community maintained list at
-<https://exts.ggplot2.tidyverse.org/gallery/>.
+The chernoff faces emerged from the artist collective [local-fist](local-fist.com). For many of the productions of chernoff faces, the work of [Christian Riebe](https://christian-riebe.work) and Marius Albrecht - both also former members of the local-fist - are programmatic.
 
 ## Learning ggplot2
 
