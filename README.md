@@ -32,15 +32,9 @@ Instructions follow as appropriate.
 
 The chernoff faces emerged from the artist collective [local fist](http://local-fist.com). For many of the productions of chernoff faces, the work of [Christian Riebe](https://christian-riebe.work) and Marius Albrecht - both also former members of the local-fist - are programmatic.
 
-## Getting help
+## Contact
 
-There are two main places to get help with ggplot2:
+There are two ways to get in touch with the members of chernoff faces:  
 
-1.  The [RStudio community](https://community.rstudio.com/) is a
-    friendly place to ask any questions about ggplot2.
-
-2.  [Stack
-    Overflow](https://stackoverflow.com/questions/tagged/ggplot2?sort=frequent&pageSize=50)
-    is a great source of answers to common ggplot2 questions. It is also
-    a great place to get help, once you have created a reproducible
-    example that illustrates your problem.
+1. open an issue [here](https://github.com/maltehueckstaedt/cf_w/issues)
+2. visit our [instagram](https://www.instagram.com/chernoff_faces/?next=%2F&hl=de) presence and contact us via direct message.
