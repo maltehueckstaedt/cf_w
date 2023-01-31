@@ -30,7 +30,7 @@ Instructions follow as appropriate.
 
 ## Lifecycle
 
-The chernoff faces emerged from the artist collective [LOCAL FIST](http://local-fist.com). For many of the productions of chernoff faces, the work of [CHRSTIAN RIEBE](https://christian-riebe.work) and **MARIUS ALBRECHT** - both also former members of the local-fist - are programmatic.
+The chernoff faces emerged from the artist collective [local fist](http://local-fist.com). For many of the productions of chernoff faces, the work of [Christian Riebe](https://christian-riebe.work) and Marius Albrecht - both also former members of the local-fist - are programmatic.
 
 ## Getting help
 
