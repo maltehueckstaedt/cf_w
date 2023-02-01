@@ -14,4 +14,4 @@
     unset($_SESSION['user_logged']);
     unset($_SESSION['user_redirect']);
     unset($_SESSION['user_redirect_attempt']);
-    header('Location: ./');
+    header('Location: nutzeranmeldung.html');

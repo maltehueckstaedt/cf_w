@@ -3,18 +3,18 @@
     header('Cache-Control: post-check=0, pre-check=0', false);
     header('Pragma: no-cache');
     session_start();
-    include 'groups-aad9b4.php';
+    include '../groups-aad9b4.php';
     function checkAccess($groups) {
         if(isset($_SESSION['user_groups'])) {
             return count(array_intersect($groups, $_SESSION['user_groups'])) > 0;
         }
         return FALSE;
     }
-    if(isset($_SESSION['user_logged']) && 8 > 0) {
+    if(isset($_SESSION['user_logged']) && 1 > 0) {
         $now = new DateTime();
         $fmt = "Y-m-d\TH:i:sP"; // ATOM
         $end = DateTime::createFromFormat($fmt, $_SESSION['user_logged']->format($fmt));
-        $end->add(new DateInterval("PT8H"));
+        $end->add(new DateInterval("PT1H"));
         $diff = $now->diff($end);
         if($diff->invert) {
             unset($_SESSION['session_id']);
@@ -32,7 +32,7 @@
             if(strlen($redirect) > 0) {
                 $_SESSION['user_redirect'] = $redirect;
             }
-            header('Location: ../');
+            header('Location: ../nutzeranmeldung.html');
             exit;
         }
     }
@@ -42,7 +42,7 @@
         if(strlen($redirect) > 0) {
             $_SESSION['user_redirect'] = $redirect;
         }
-        header('Location: ../');
+        header('Location: ../nutzeranmeldung.html');
         exit;
     }
     unset($_SESSION['user_redirect']);

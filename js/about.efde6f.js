@@ -6,13 +6,13 @@ window.plstp||(window.plstp=[]),plst=function(p,w){for(f in window.plstp)window.
 
 $(function(){
 !function(){var e=document.querySelectorAll('a[href^="#"]');[].forEach.call(e,function(e){e.addEventListener("click",function(t){var o=0;if(e.hash.length>1){var n=parseFloat(getComputedStyle(document.body).getPropertyValue("zoom"));n||(n=1);var r=document.querySelectorAll('[name="'+e.hash.slice(1)+'"]')[0];if(!r)return;var l=/chrome/i.test(navigator.userAgent);o=l?r.getBoundingClientRect().top*n+pageYOffset:(r.getBoundingClientRect().top+pageYOffset)*n}if("scrollBehavior"in document.documentElement.style)scroll({top:o,left:0,behavior:"smooth"});else if("requestAnimationFrame"in window){var a=pageYOffset,i=null;requestAnimationFrame(function e(t){i||(i=t);var n=t-i;scrollTo(0,a<o?(o-a)*n/400+a:a-(a-o)*n/400),n<400?requestAnimationFrame(e):scrollTo(0,o)})}else scrollTo(0,o);t.preventDefault()},!1)})}();
-un17=document.querySelectorAll('.un17');
-if(un17.length){
-un17=new Plyr('.un17 audio',{'iconUrl':'css/plyr.svg',controls:['play'],storage:{enabled:false}});
-un17.volume=0.5;
-un17.on('play',function(){plst('un17',function(){un17.pause();})});
-un17.on('pause ended',function(){plrm('un17')});
+un1=document.querySelectorAll('.un1');
+if(un1.length){
+un1=new Plyr('.un1 audio',{'iconUrl':'css/plyr.svg',controls:['play'],storage:{enabled:false}});
+un1.volume=0.5;
+un1.on('play',function(){plst('un1',function(){un1.pause();})});
+un1.on('pause ended',function(){plrm('un1')});
 }
-addCounter('sf1',1.000000,10000.000000,1,1.000000,0,2000,500,0);if(location.hash){var e=location.hash.replace("#",""),o=function(){var t=document.querySelectorAll('[name="'+e+'"]')[0];t&&t.scrollIntoView(),"0px"===window.getComputedStyle(document.body).getPropertyValue("min-width")&&setTimeout(o,100)};o()}
+if(location.hash){var e=location.hash.replace("#",""),o=function(){var t=document.querySelectorAll('[name="'+e+'"]')[0];t&&t.scrollIntoView(),"0px"===window.getComputedStyle(document.body).getPropertyValue("min-width")&&setTimeout(o,100)};o()}
 
 });

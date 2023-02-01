@@ -49,5 +49,5 @@
         }
     }
     else {
-        header('Location: index.html?err=99');
+        header('Location: nutzeranmeldung.html?err=99');
     }

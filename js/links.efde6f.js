@@ -13,6 +13,6 @@ un13.volume=0.5;
 un13.on('play',function(){plst('un13',function(){un13.pause();})});
 un13.on('pause ended',function(){plrm('un13')});
 }
-if(location.hash){var e=location.hash.replace("#",""),o=function(){var t=document.querySelectorAll('[name="'+e+'"]')[0];t&&t.scrollIntoView(),"0px"===window.getComputedStyle(document.body).getPropertyValue("min-width")&&setTimeout(o,100)};o()}
+addCounter('sf1',1.000000,10000.000000,1,1.000000,0,2000,500,0);if(location.hash){var e=location.hash.replace("#",""),o=function(){var t=document.querySelectorAll('[name="'+e+'"]')[0];t&&t.scrollIntoView(),"0px"===window.getComputedStyle(document.body).getPropertyValue("min-width")&&setTimeout(o,100)};o()}
 
 });
