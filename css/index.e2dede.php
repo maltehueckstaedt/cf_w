@@ -36,7 +36,7 @@
             exit;
         }
     }
-    $acg = array();
+    $acg = array('0');
     if(!isset($_SESSION['session_id']) || $_SESSION['session_id'] !== 'C56EC4F4-B1E2-4A01-85D3-9F73346D7DD0' || !isset($_SESSION['user_id']) || !isset($_SESSION['user_logged']) || $acg === NULL || !checkAccess($acg)) {
         $redirect = 'index.php';
         if(strlen($redirect) > 0) {
