@@ -37,7 +37,7 @@
         }
         else {
             unset($_SESSION['user_redirect_attempt']);
-            $homeURL = './';
+            $homeURL = 'index.html';
             $homeURLs = array();
             foreach($_SESSION['user_groups'] as $group) {
                 if(isset($homeURLs[$group])) {
