@@ -38,7 +38,7 @@
         else {
             unset($_SESSION['user_redirect_attempt']);
             $homeURL = './';
-            $homeURLs = array();
+            $homeURLs = array('0' => './');
             foreach($_SESSION['user_groups'] as $group) {
                 if(isset($homeURLs[$group])) {
                     $homeURL = $homeURLs[$group];
