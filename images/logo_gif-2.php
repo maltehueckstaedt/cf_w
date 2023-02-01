@@ -3,7 +3,7 @@
     header('Cache-Control: post-check=0, pre-check=0', false);
     header('Pragma: no-cache');
     session_start();
-    include '../groups-aad9b4.php';
+    include 'groups-aad9b4.php';
     function checkAccess($groups) {
         if(isset($_SESSION['user_groups'])) {
             return count(array_intersect($groups, $_SESSION['user_groups'])) > 0;
@@ -32,7 +32,7 @@
             if(strlen($redirect) > 0) {
                 $_SESSION['user_redirect'] = $redirect;
             }
-            header('Location: ../nutzeranmeldung.html');
+            header('Location: ../');
             exit;
         }
     }
@@ -42,7 +42,7 @@
         if(strlen($redirect) > 0) {
             $_SESSION['user_redirect'] = $redirect;
         }
-        header('Location: ../nutzeranmeldung.html');
+        header('Location: ../');
         exit;
     }
     unset($_SESSION['user_redirect']);
