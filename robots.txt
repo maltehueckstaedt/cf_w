@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://maltehueckstaedt.github.io/cf_w/sitemap.xml
